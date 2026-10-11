@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+<title id="title">Muhammad Raihan Surya · astrorehan</title>
+<desc id="desc">Code, data, and a little curiosity. An orbital illustration with a cyan sun.</desc>
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#24354e" stroke-width=".5"/></pattern>
+  <linearGradient id="sun" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+  <linearGradient id="edge"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="958" height="298" rx="22" fill="#0b1324" stroke="#24354e"/>
+<rect x="580" y="22" width="358" height="256" rx="14" fill="url(#grid)" opacity=".6"/>
+<rect x="40" y="39" width="156" height="27" rx="13.5" fill="#111e33" stroke="#24354e"/>
+<circle cx="57" cy="52.5" r="3" fill="#67e8f9"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+  <text x="70" y="57" fill="#67e8f9" font-size="12" font-weight="600" letter-spacing="1.6">ASTROREHAN</text>
+  <text x="40" y="124" fill="#edf5ff" font-size="43" font-weight="700" letter-spacing="-1.5">Muhammad Raihan</text>
+  <text x="40" y="172" fill="#edf5ff" font-size="43" font-weight="700" letter-spacing="-1.5">Surya<tspan fill="#67e8f9">.</tspan></text>
+  <text x="42" y="211" fill="#9aadc7" font-size="17">Code, data, and a little curiosity.</text>
+  <rect x="42" y="239" width="36" height="3" rx="1.5" fill="url(#edge)"/>
+  <text x="90" y="246" fill="#9aadc7" font-size="12" letter-spacing="2">WEB / DATA / TOOLS</text>
+</g>
+<g transform="translate(764 151)">
+  <circle r="87" fill="none" stroke="#24354e" stroke-dasharray="3 7"/>
+  <ellipse rx="140" ry="46" transform="rotate(-28)" fill="none" stroke="#67e8f9" stroke-opacity=".5"/>
+  <ellipse rx="65" ry="110" transform="rotate(-28)" fill="none" stroke="#24354e"/>
+  <circle r="36" fill="url(#sun)"/>
+  <circle r="44" fill="none" stroke="#67e8f9" stroke-opacity=".25"/>
+  <circle cx="113" cy="-67" r="9" fill="#0b1324" stroke="#67e8f9" stroke-width="2"/>
+  <circle cx="-67" cy="-57" r="4" fill="#67e8f9"/>
+  <circle cx="18" cy="107" r="6" fill="#0b1324" stroke="#60a5fa" stroke-width="2"/>
+  <path d="M -12 -5 L -18 0 L -12 5 M 12 -5 L 18 0 L 12 5 M 4 -10 L -4 10" fill="none" stroke="#0b1324" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="605" cy="41" r="2" fill="#67e8f9" opacity="0.7"/><circle cx="865" cy="54" r="2" fill="#67e8f9" opacity="0.7"/><circle cx="923" cy="133" r="1.5" fill="#67e8f9" opacity="0.6"/><circle cx="650" cy="241" r="2" fill="#67e8f9" opacity="0.6"/><circle cx="879" cy="261" r="1.5" fill="#67e8f9" opacity="0.7"/><circle cx="593" cy="173" r="1" fill="#67e8f9" opacity="0.6"/>
+</svg>

@@ -1,0 +1,50 @@
+name: Refresh profile assets
+
+on:
+  schedule:
+    - cron: '23 23 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_stats.py
+      - .github/workflows/profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Generate activity cards
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: python3 scripts/update_stats.py
+
+      - name: Generate contribution snakes
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake-light.svg?color_snake=%230891b2
+            assets/snake-dark.svg?palette=github-dark&color_snake=%2367e8f9
+
+      - name: Publish refreshed assets
+        run: |
+          git config user.name 'astrorehan'
+          git config user.email '240350336+astrorehan@users.noreply.github.com'
+          git add assets/stats-*.svg assets/snake-*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh profile activity assets"
+            git push
+          fi
