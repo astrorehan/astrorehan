@@ -1,8 +1,10 @@
 <div align="center">
   <picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/header-dark-mobile.svg" />
+    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="assets/header-light-mobile.svg" />
     <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
-    <img src="assets/header-dark.svg" width="100%" alt="Muhammad Raihan Surya — astrorehan. Code, data, and a little curiosity." />
+    <img src="assets/header-dark.svg" width="100%" alt="Muhammad Raihan Surya — astrorehan. IT student at UGM, Indonesia. Building with code, data, and curiosity." />
   </picture>
 
   <h1>Hi, I'm Raihan 👋</h1>
@@ -71,9 +73,11 @@ Technologies used across my public projects.
 
 [Browse all repositories →](https://github.com/astrorehan?tab=repositories)
 
-## 📊 GitHub at a glance
+<a id="github-at-a-glance"></a>
 
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/stats-dark-mobile.svg" />
+  <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="assets/stats-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg" />
   <img src="assets/stats-dark.svg" width="100%" alt="GitHub activity and language breakdown for astrorehan" />
