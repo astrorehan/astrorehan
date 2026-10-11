@@ -11,7 +11,7 @@
   <p><b>IT student at Universitas Gadjah Mada · Indonesia</b></p>
   <p>I build web applications, explore data and machine learning,<br />and make tools that connect ideas to useful experiences.</p>
 
-  <a href="https://www.linkedin.com/in/muhammad-raihan-surya-076081376/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/muhammadraihansurya"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
   <a href="https://www.instagram.com/rehannsumatra/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" /></a>
   <a href="https://github.com/astrorehan?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_projects-162235?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore my GitHub projects" /></a>
 </div>
