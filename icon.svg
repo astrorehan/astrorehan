@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- The sun from the page: a warm disc in a ring of rays. -->
+  <defs>
+    <radialGradient id="disc" cx="0.4" cy="0.36" r="0.72">
+      <stop offset="0" stop-color="#fff3c4" />
+      <stop offset="0.4" stop-color="#ffd25a" />
+      <stop offset="0.78" stop-color="#ffb21f" />
+      <stop offset="1" stop-color="#f29a00" />
+    </radialGradient>
+  </defs>
+  <path
+    stroke="#f7a30c"
+    stroke-width="6"
+    stroke-linecap="round"
+    d="M32 3.4V9M32 55V60.6M3.4 32H9M55 32H60.6M11.78 11.78L15.74 15.74M48.26 48.26L52.22 52.22M11.78 52.22L15.74 48.26M48.26 15.74L52.22 11.78"
+  />
+  <circle cx="32" cy="32" r="18.5" fill="url(#disc)" />
+</svg>

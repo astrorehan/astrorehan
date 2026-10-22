@@ -67,9 +67,9 @@ Technologies used across my public projects.
 | :--- | :--- | :--- |
 | **[Figlo](https://github.com/astrorehan/figlo)** | Imports Figma designs into Roblox Studio as editable UI. Currently in alpha. | TypeScript · Luau · Bun |
 | **[PRAKIRA](https://github.com/astrorehan/prakira)** | Climate-based disease risk forecasts and early warning dashboards for Semarang. | Next.js · Express · FastAPI · PostgreSQL · XGBoost |
-| **[PetaSurya](https://github.com/astrorehan/PetaSurya)** | Maps rooftop solar potential in Indonesia, with building-level energy and savings estimates. | Next.js · React · MapLibre |
+| **[PetaSurya](https://github.com/astrorehan/PetaSurya)** | Maps rooftop solar potential in Indonesia, with building-level energy and savings estimates. | Next.js · React · FastAPI · MapLibre · ONNX |
 | **[PanenCerdas](https://github.com/astrorehan/panen-cerdas)** | Harvest predictions using satellite vegetation, weather, and agricultural data. | Next.js · FastAPI · scikit-learn · Supabase |
-| **[Shoe Laundry Queue](https://github.com/astrorehan/ASD_project)** | Queue and stack implementations with a CLI, REST API, and web interface. | C++ · Crow · Next.js · Docker |
+| **[agent-council](https://github.com/astrorehan/agent-council)** | Four-role adversarial decision protocol (Believer, Skeptic, Investor, Judge) with evidence-tier rulings. | Agent Skills · Claude Code · Codex · Gemini CLI |
 
 [Browse all repositories →](https://github.com/astrorehan?tab=repositories)
 

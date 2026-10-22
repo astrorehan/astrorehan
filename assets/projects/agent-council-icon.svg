@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="agent-council icon">
+  <rect width="256" height="256" rx="56" fill="#0B0E14"/>
+  <rect x="4" y="4" width="248" height="248" rx="52" fill="none" stroke="#232A36" stroke-width="4"/>
+  <!-- Council Table Arc -->
+  <path d="M52 162 C86 132, 170 132, 204 162" fill="none" stroke="#6E7681" stroke-width="6" stroke-linecap="round"/>
+  <path d="M68 184 C96 160, 160 160, 188 184" fill="none" stroke="#30363D" stroke-width="4" stroke-linecap="round"/>
+  <!-- 4 Adversarial Role Nodes: Believer (Green), Skeptic (Red), Investor (Blue), Judge (Gold) -->
+  <g stroke-width="6" fill="#0B0E14">
+    <circle cx="64" cy="118" r="18" stroke="#3FB950"/>
+    <circle cx="106" cy="92" r="18" stroke="#F85149"/>
+    <circle cx="150" cy="92" r="18" stroke="#58A6FF"/>
+    <circle cx="192" cy="118" r="18" stroke="#D29922"/>
+  </g>
+  <circle cx="64" cy="118" r="6" fill="#3FB950"/>
+  <circle cx="106" cy="92" r="6" fill="#F85149"/>
+  <circle cx="150" cy="92" r="6" fill="#58A6FF"/>
+  <circle cx="192" cy="118" r="6" fill="#D29922"/>
+</svg>
