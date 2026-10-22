@@ -2781,7 +2781,7 @@
     const wasOpen = Boolean(sheet.current);
     sheet.current = p;
     renderProject(p);
-    document.title = `${p.name} by Raihan Surya`;
+    document.title = `${p.name} | Astro`;
     if (!wasOpen) {
       clearTimeout(sheet.closeTimer);
       if (!sheet.opener) sheet.opener = document.activeElement;
@@ -2805,7 +2805,7 @@
     sheet.current = null;
     sheet.root.classList.remove("is-open");
     root.classList.remove("is-locked");
-    document.title = "Raihan Surya";
+    document.title = "Astro";
     sheet.closeTimer = setTimeout(() => {
       sheet.root.hidden = true;
       sheet.body.innerHTML = "";
