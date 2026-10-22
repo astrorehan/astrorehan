@@ -87,7 +87,7 @@ function reply(request, status, body) {
     ? "Your note is on its way. I'll write back soon."
     : Object.values(body.errors || {})[0] || body.error;
   return new Response(
-    `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Raihan Surya</title>` +
+    `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Astro</title>` +
       `<body style="font: 18px/1.5 system-ui, sans-serif; max-width: 34em; margin: 20vh auto; padding: 0 20px">` +
       `<p>${escapeHtml(line)}</p><p><a href="/#contact">Back to the site</a></p>`,
     { status, headers: { "Content-Type": "text/html; charset=utf-8" } }
