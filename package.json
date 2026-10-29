@@ -1,0 +1,24 @@
+{
+  "name": "astrorehan-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Muhammad Raihan Surya",
+  "main": "app.js",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "test": "echo \"No tests specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrorehan/astrorehan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astrorehan/astrorehan/issues"
+  },
+  "homepage": "https://github.com/astrorehan/astrorehan#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
