@@ -1,2 +1,8 @@
 __pycache__/
 *.pyc
+
+# Dependencies
+node_modules/
+
+# Package manager lock files are tracked
+# package-lock.json, yarn.lock, pnpm-lock.yaml should be committed
